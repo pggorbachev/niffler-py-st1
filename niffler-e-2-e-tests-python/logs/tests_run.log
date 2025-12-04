@@ -1,0 +1,560 @@
+
+-----
+Start time: 2025-08-04 19:11:25.829588
+
+[AuthSession] request: GET, /oauth2/authorize, params={'response_type': 'code', 'client_id': 'client', 'scope': 'openid', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_challenge': 'nOqsYGx_7MMecDfCg-a6hJu7RnVu7GLeykKC92QkW5o', 'code_challenge_method': 'S256'}, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:11:25.856025
+
+[AuthSession] request: POST, /login, data={'username': 'oleg', 'password': '1234', '_csrf': 'b1d3578a-0e09-433f-8c35-581ab5b6c8cc'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:11:25.963462
+
+[AuthSession] request: POST, /oauth2/token, data={'code': 'WwoDxcWz1rShbQzfpUQx2a2vTWqG64DorFk0LYzdSth-5-BtwLtE0fOsoghD4tzezOJx8o_jjmD1hfK4U4lozMS95TUioBQNgG8K1l2GadGc6Gac3utXC_TjLTGL8jtA', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_verifier': '7lx0kbeO3cZRNxiCoQWYcSg9idu5F872uLWNAC5kVOML44f9A0IW_9clhDILhTMfwPp9Fwin4U6ttk8237MeHaGNgEALAbEvVnxfbjxkSw4W599ScOrd2uUo-8vi39lb', 'grant_type': 'authorization_code', 'client_id': 'client'}, json=None, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}
+
+-----
+Start time: 2025-08-04 19:11:26.082714
+
+[CategoryHttpClient] add category: category='voice' username='oleg'
+
+-----
+Start time: 2025-08-04 19:11:26.559862
+
+[CategoryHttpClient] add category: category='white' username=None
+
+-----
+Start time: 2025-08-04 19:11:26.579575
+
+[CategoryHttpClient] get categories
+
+-----
+Start time: 2025-08-04 19:11:26.611140
+
+[CategoryHttpClient] add category: category='even' username=None
+
+-----
+Start time: 2025-08-04 19:11:26.629267
+
+[SpendsHttpClient] add spends: amount=108.51 description='QA.GURU Python Advanced 2' category='even' spendDate='2025-08-04' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:11:27.024953
+
+[CategoryHttpClient] add category: category='even' username=None
+
+-----
+Start time: 2025-08-04 19:11:27.036306
+
+[SpendsHttpClient] add spends: amount=108.51 description='' category='even' spendDate='2025-08-04' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:11:27.058740
+
+[CategoryHttpClient] add category: category='even' username=None
+
+-----
+Start time: 2025-08-04 19:11:27.068689
+
+[SpendsHttpClient] add spends: amount=0.01 description='QA.GURU Python Advanced 2' category='even' spendDate='2025-08-04' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:11:27.091920
+
+[CategoryHttpClient] add category: category='Kenya' username=None
+
+-----
+Start time: 2025-08-04 19:11:27.102158
+
+[SpendsHttpClient] add spends: amount=10500.0 description='QA.GURU Python Advanced 2' category='Kenya' spendDate='2025-08-04' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:11:27.125335
+
+[SpendsHttpClient] get spends
+
+-----
+Start time: 2025-08-04 19:11:27.145123
+
+[CategoryHttpClient] add category: category='Guyana' username=None
+
+-----
+Start time: 2025-08-04 19:11:27.158921
+
+[SpendsHttpClient] add spends: amount=108.51 description='QA.GURU Python Advanced 2' category='Guyana' spendDate='2024-08-08T18:39:27.955Z' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:11:27.178617
+
+[SpendsHttpClient] update spend: id='c3233f67-4856-485e-979c-6b24782f0b1c' amount=10500.0 description='for test' category='Guyana' spendDate=datetime.datetime(2025, 8, 4, 0, 0) currency='RUB' username='oleg'
+
+-----
+Start time: 2025-08-04 19:11:27.198392
+
+[SpendsHttpClient] get spends
+
+-----
+Start time: 2025-08-04 19:11:27.209314
+
+[SpendsHttpClient] remove spends: ['c3233f67-4856-485e-979c-6b24782f0b1c']
+
+-----
+Start time: 2025-08-04 19:11:27.320990
+
+[AuthSession] request: GET, /register, params={'redirect_uri': 'http://auth.niffler.dc:9000/register'}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:11:27.328665
+
+[AuthSession] request: POST, /register, data={'username': 'sanchezdonald', 'password': 'liEaizmlY8', 'passwordSubmit': 'liEaizmlY8', '_csrf': '17c0b17b-9cc5-42f1-b65d-dca1027d18a0'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:11:31.866679
+
+[CategoryHttpClient] add category: category='Test category name Alyssa Griffin' username=None
+
+-----
+Start time: 2025-08-04 19:11:34.455855
+
+[LoginPage] sign in: oleg, 12345
+
+-----
+Start time: 2025-08-04 19:11:39.159860
+
+[LoginPage] sign in: Helga, 56789
+
+-----
+Start time: 2025-08-04 19:12:00.296277
+
+[CategoryHttpClient] add category: category='even' username=None
+
+-----
+Start time: 2025-08-04 19:12:00.361310
+
+[SpendsHttpClient] add spends: amount=108.51 description='QA.GURU Python Advanced 1' category='even' spendDate='2024-08-08T18:39:27.955Z' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:12:00.422365
+
+[SpendsHttpClient] get spends
+
+-----
+Start time: 2025-08-04 19:12:00.444173
+
+[SpendsHttpClient] remove spends: ['20d19bc0-c123-4489-8254-ead47bd3c6c0']
+
+-----
+Start time: 2025-08-04 19:12:02.786942
+
+[CategoryHttpClient] add category: category='between' username=None
+
+-----
+Start time: 2025-08-04 19:12:02.910423
+
+[CategoryHttpClient] add category: category='voice' username=None
+
+-----
+Start time: 2025-08-04 19:12:05.311638
+
+[CategoryHttpClient] add category: category='white' username=None
+
+-----
+Start time: 2025-08-04 19:12:05.330758
+
+[SpendsHttpClient] add spends: amount=108.51 description='QA.GURU Python Advanced 1' category='white' spendDate='2024-08-08T18:39:27.955Z' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:12:13.117893
+
+[SpendsHttpClient] get spends
+
+-----
+Start time: 2025-08-04 19:12:13.158890
+
+[SpendsHttpClient] remove spends: ['dc58fd85-52f6-49ec-8e8f-f03d53779fc0']
+
+-----
+Start time: 2025-08-04 19:13:52.755559
+
+[RegistrationPage] sign up: rhonda87, )4F(h^xrU_, )4F(h^xrU_
+
+-----
+Start time: 2025-08-04 19:13:53.148352
+
+[RegistrationPage] check registration message
+
+-----
+Start time: 2025-08-04 19:13:53.252763
+
+[RegistrationPage] sign up: marshallkimberly, %5B1y$UnZ5, password
+
+-----
+Start time: 2025-08-04 19:13:53.363836
+
+[RegistrationPage] check error message
+
+-----
+Start time: 2025-08-04 19:13:53.453548
+
+[RegistrationPage] sign up: oleg, 12345, 12345
+
+-----
+Start time: 2025-08-04 19:13:53.548052
+
+[RegistrationPage] check already exist user: oleg
+
+-----
+Start time: 2025-08-04 19:14:27.978681
+
+[LoginPage] sign in: oleg, 12345
+
+-----
+Start time: 2025-08-04 19:14:32.734029
+
+[LoginPage] sign in: Helga, 56789
+
+-----
+Start time: 2025-08-04 19:15:59.230961
+
+[LoginPage] sign in: oleg, 12345
+
+-----
+Start time: 2025-08-04 19:15:59.630429
+
+[LoginPage] check error message
+
+-----
+Start time: 2025-08-04 19:15:59.685233
+
+[LoginPage] sign in: Helga, 56789
+
+-----
+Start time: 2025-08-04 19:15:59.883746
+
+[LoginPage] check error message
+
+-----
+Start time: 2025-08-04 19:16:22.886643
+
+[AuthSession] request: GET, /oauth2/authorize, params={'response_type': 'code', 'client_id': 'client', 'scope': 'openid', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_challenge': 'MTHs_jZE4cyBBqXWXVOgZnUEgakgoSDDfYtB7trdiNQ', 'code_challenge_method': 'S256'}, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:16:22.908132
+
+[AuthSession] request: POST, /login, data={'username': 'oleg', 'password': '1234', '_csrf': '4ad3943f-3d9a-4ca9-930d-c4eb50225d74'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:16:23.009667
+
+[AuthSession] request: POST, /oauth2/token, data={'code': 'HE3l9IZEr-sh9mCDqnCkoms8qQn2lb7PhE8rMVfNoAHdxxP4zU8amAkg1rmgHWfBpeX1cmL9xKfQUhiJ_tq9GdJABp0j3rP3507AedNJpsuAQd_exUznEUfNDke50d5K', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_verifier': 'n43xXhDnD_MtQylQ4L6x14rRif56XYeD8rjOt91kjnahdfj1dZwXcnVp2csTH03jXJhLoAPxZH9yNF4PeFD9a-lsnvaDWq7dLaThCGdjlCfUnnGkrVVTICo8_p4vLdfz', 'grant_type': 'authorization_code', 'client_id': 'client'}, json=None, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}
+
+-----
+Start time: 2025-08-04 19:16:23.132317
+
+[CategoryHttpClient] add category: category='Test category name Curtis Carter' username=None
+
+-----
+Start time: 2025-08-04 19:16:46.899377
+
+[AuthSession] request: GET, /oauth2/authorize, params={'response_type': 'code', 'client_id': 'client', 'scope': 'openid', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_challenge': 'T5KPq77H6CKIIPlP5fUkMPHxIF_Q-qOPTXXCP7Qya5Q', 'code_challenge_method': 'S256'}, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:16:46.927911
+
+[AuthSession] request: POST, /login, data={'username': 'oleg', 'password': '1234', '_csrf': '0c5b85bd-6c91-4882-a17c-95d164892f94'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:16:47.006646
+
+[AuthSession] request: POST, /oauth2/token, data={'code': 'c0FpDyjsSx2xnxHYftcFT9cw4KnnJ9exGTVzj_SCX-bbVrG2BesXZtpZR_rS433hf05fzE-tIf5NXFbNs2k1V2QI-3fgyd-DMazHA9adQFpRTFnMryv0dCYC1hvHvQ7E', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_verifier': '5yJqWuL1IUVhCDdaNgqaIwvbSiXSu-LbyuOD9Ps2ysHLGJUFNZINSFqi9QChRQkYDF3VHkcz4_lO7Lr6MljGEP6ISAWCL2bn9F_RYXDeTIKhSa8uybhRiMr6gQwl-ywL', 'grant_type': 'authorization_code', 'client_id': 'client'}, json=None, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}
+
+-----
+Start time: 2025-08-04 19:16:47.111572
+
+[CategoryHttpClient] add category: category='home' username=None
+
+-----
+Start time: 2025-08-04 19:16:47.125457
+
+[SpendsHttpClient] add spends: amount=108.51 description='QA.GURU Python Advanced 1' category='home' spendDate='2024-08-08T18:39:27.955Z' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:16:47.195869
+
+[SpendsHttpClient] get spends
+
+-----
+Start time: 2025-08-04 19:16:47.210404
+
+[SpendsHttpClient] remove spends: ['db29b2d4-a939-478b-b86e-e87314234a2e']
+
+-----
+Start time: 2025-08-04 19:16:49.718655
+
+[CategoryHttpClient] add category: category='send' username=None
+
+-----
+Start time: 2025-08-04 19:16:52.018167
+
+[CategoryHttpClient] add category: category='life' username=None
+
+-----
+Start time: 2025-08-04 19:16:54.424371
+
+[CategoryHttpClient] add category: category='investment' username=None
+
+-----
+Start time: 2025-08-04 19:16:54.445296
+
+[SpendsHttpClient] add spends: amount=108.51 description='QA.GURU Python Advanced 1' category='investment' spendDate='2024-08-08T18:39:27.955Z' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:16:59.390259
+
+[SpendsHttpClient] get spends
+
+-----
+Start time: 2025-08-04 19:16:59.419182
+
+[SpendsHttpClient] remove spends: ['8d657b50-9686-406e-9ab3-df418e711605']
+
+-----
+Start time: 2025-08-04 19:17:46.304176
+
+[AuthSession] request: GET, /oauth2/authorize, params={'response_type': 'code', 'client_id': 'client', 'scope': 'openid', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_challenge': 'gza_AsBpgl8lElHXp7py2Jm4yS5_ATw-sZlCpuXzsmc', 'code_challenge_method': 'S256'}, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:17:46.331169
+
+[AuthSession] request: POST, /login, data={'username': 'oleg', 'password': '1234', '_csrf': '9fd02d23-4d40-45df-980f-a5713732e4aa'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:17:46.442345
+
+[AuthSession] request: POST, /oauth2/token, data={'code': 'TvEC0VQBFnUJjzJcH4_R21EZTXdimOsOoJhxfL6F48YkakAhiBIybMzTxNo7nsiPme_LK0DJTFogzPlBs4a1t8syyuxCmXHgiu-W5wp0XZULjKrFTzEuATF9BmYKLm6M', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_verifier': 'OVQMMvjzWqdxBcxT6Fj5blnVnkPOah1Ym7R70pP8lUnGjL5BeWjEQ7sKR4gU1aoKkH-OyX9_iAf0UCS6Otnv7-1P0--I9XXLNPNMXCR9IJjIHiJu6M8RurrM2XHvHqqO', 'grant_type': 'authorization_code', 'client_id': 'client'}, json=None, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}
+
+-----
+Start time: 2025-08-04 19:17:46.614831
+
+[CategoryHttpClient] add category: category='hundred' username=None
+
+-----
+Start time: 2025-08-04 19:17:46.642172
+
+[SpendsHttpClient] add spends: amount=108.51 description='QA.GURU Python Advanced 1' category='hundred' spendDate='2024-08-08T18:39:27.955Z' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:17:51.363169
+
+[SpendsHttpClient] get spends
+
+-----
+Start time: 2025-08-04 19:17:51.383909
+
+[SpendsHttpClient] remove spends: ['28ce9d0f-d037-4f8b-a4e2-df86da98ad39']
+
+-----
+Start time: 2025-08-04 19:18:15.689421
+
+[AuthSession] request: GET, /oauth2/authorize, params={'response_type': 'code', 'client_id': 'client', 'scope': 'openid', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_challenge': '-S35zh6u33-wlYqGZcf8Ln3Yw6V6JY2g2Kyab-F-B4s', 'code_challenge_method': 'S256'}, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:18:15.718210
+
+[AuthSession] request: POST, /login, data={'username': 'oleg', 'password': '1234', '_csrf': 'fca40606-77e8-464d-abf8-bd741ebf6a7f'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:18:15.819394
+
+[AuthSession] request: POST, /oauth2/token, data={'code': 'GJDCnDj-OvCzCNb3bo_g3Zh1hHzjcFiLFebit8R5FzuDaqbp7LIEYKoIlCOEbl88HtyONA2KRCQblPjbIvvY4l0MOY6GX6h3MO4nARokXdtICZ602NLAbP-jU_KNPKMn', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_verifier': '8XfMpa_UGFicPDiadNsR_BupBw1v2hViQMBaBUBOv79lXEGErlT_NylxCC4wxkt068nkIGaRkQ-n57H1KX5l9u8OGTqBjdGxknfh7UyexierhM2KLZbm5AAXR8a7Rx6_', 'grant_type': 'authorization_code', 'client_id': 'client'}, json=None, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}
+
+-----
+Start time: 2025-08-04 19:18:15.998940
+
+[CategoryHttpClient] add category: category='southern' username=None
+
+-----
+Start time: 2025-08-04 19:18:16.036334
+
+[SpendsHttpClient] add spends: amount=108.51 description='QA.GURU Python Advanced 1' category='southern' spendDate='2024-08-08T18:39:27.955Z' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:18:20.717282
+
+[SpendsHttpClient] get spends
+
+-----
+Start time: 2025-08-04 19:18:20.745928
+
+[SpendsHttpClient] remove spends: ['57479707-d04d-4254-8388-f5ed73974bd0']
+
+-----
+Start time: 2025-08-04 19:19:02.467108
+
+[AuthSession] request: GET, /oauth2/authorize, params={'response_type': 'code', 'client_id': 'client', 'scope': 'openid', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_challenge': 'mJVRKge8nJwvGDitOKcNlXYmyNDtKyw1h6tax5QK584', 'code_challenge_method': 'S256'}, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:19:02.494408
+
+[AuthSession] request: POST, /login, data={'username': 'oleg', 'password': '1234', '_csrf': '661754cb-6a54-45c3-be65-b25e5ffea183'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:19:02.597933
+
+[AuthSession] request: POST, /oauth2/token, data={'code': 'iHbhyyKzagGaeXur7EG28ceCDbTqlgt2BPT5OY1kF_MqfFm8M1uhXzGCxKey8AiW4cUrWZYPnDFwxE6PFmXTWc5bYRz0P0lUXgXaLKT_hDRark-clYTk_2mYvlY2AtMz', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_verifier': '__sfiRILaZmr1U1IT1Z47W71BKWWxDJoW0goK1UEwyW_5iGqursT3ZSiYAKCMXV6aflZOED8cq7-RMthEc59nucZ-yLaYM79ZJ0WGaJvDdrj3ZBXkqOexIlCVm7KxpqJ', 'grant_type': 'authorization_code', 'client_id': 'client'}, json=None, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}
+
+-----
+Start time: 2025-08-04 19:19:02.805714
+
+[CategoryHttpClient] add category: category='total' username=None
+
+-----
+Start time: 2025-08-04 19:19:02.855964
+
+[SpendsHttpClient] add spends: amount=108.51 description='QA.GURU Python Advanced 1' category='total' spendDate='2024-08-08T18:39:27.955Z' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:19:09.680603
+
+[SpendsHttpClient] get spends
+
+-----
+Start time: 2025-08-04 19:19:09.700835
+
+[SpendsHttpClient] remove spends: ['ddf8eeb6-c408-4238-ab35-fea7ecb0ecc2']
+
+-----
+Start time: 2025-08-04 19:19:23.142203
+
+[AuthSession] request: GET, /oauth2/authorize, params={'response_type': 'code', 'client_id': 'client', 'scope': 'openid', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_challenge': 'LzJpPed-ZQwuQd03Y1mpd2tA3PfnkIZoF942uzYOL8E', 'code_challenge_method': 'S256'}, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:19:23.168870
+
+[AuthSession] request: POST, /login, data={'username': 'oleg', 'password': '1234', '_csrf': '54757e97-c2a4-4bb1-a3fe-6e53abc9eaa5'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:19:23.269063
+
+[AuthSession] request: POST, /oauth2/token, data={'code': 'CcygbOfo5x3UTeNJNVSEcC-sGqQ-16it8O4tXl_3OwY261JjykqNVhLI0EhI4seta4mrN_WYUnrEVLDTPT9y5XQMNDOR1DqOHis66NhbNu5Jtlhig5qnb9mPP-9kBfBC', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_verifier': '_92XF5OSJmNJoD_Mm1KEInPT0VcDVN8rOhbLeYNfQZ69yz3zkcO5a36MtOmWOpKkHjQMHPBXSzHJUrccPYZo0lnIpt3BcoZNQGDwMQrO86kDN2YfNsOjfrywDmxWeyBj', 'grant_type': 'authorization_code', 'client_id': 'client'}, json=None, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}
+
+-----
+Start time: 2025-08-04 19:19:23.448810
+
+[CategoryHttpClient] add category: category='especially' username=None
+
+-----
+Start time: 2025-08-04 19:19:23.515528
+
+[SpendsHttpClient] add spends: amount=108.51 description='QA.GURU Python Advanced 1' category='especially' spendDate='2024-08-08T18:39:27.955Z' currency='RUB'
+
+-----
+Start time: 2025-08-04 19:19:30.399080
+
+[SpendsHttpClient] get spends
+
+-----
+Start time: 2025-08-04 19:19:30.479474
+
+[SpendsHttpClient] remove spends: ['16a70c23-1078-423a-948d-b5c3489e5539']
+
+-----
+Start time: 2025-08-04 19:20:34.013075
+
+[AuthSession] request: GET, /oauth2/authorize, params={'response_type': 'code', 'client_id': 'client', 'scope': 'openid', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_challenge': 'auVR9klfaWRvlJQUn48-yY9H2bRCnCG1B1lfztitNFY', 'code_challenge_method': 'S256'}, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:20:34.041758
+
+[AuthSession] request: POST, /login, data={'username': 'oleg', 'password': '1234', '_csrf': '5dc77851-9c81-4dac-bcfd-29a59faa6d43'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:20:34.149419
+
+[AuthSession] request: POST, /oauth2/token, data={'code': 'BlO8jlwh7jJRHYTSBxaSEJz9gQ_4pBsoerNESD3z3la-cF61tS6JbqvmQ0JlJmKoZMZGDeriTI7_Brxuxy_5mqsuSrZLHACXuonF1A6UkTe9iCNaim7_XjN-gPULtHQ7', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_verifier': 'T2PLBjocGeqFt8IPHS0VCcI-PA15BeSu0RVSRV4LeOv99MQDJQiXEKsDNXnfn2yqgfTmUmhfF6zDNsuWy1s37iwFQUR2FyobzQjxguYWXC6wAwGYAIquoLz678lJFU5C', 'grant_type': 'authorization_code', 'client_id': 'client'}, json=None, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}
+
+-----
+Start time: 2025-08-04 19:20:34.332253
+
+[CategoryHttpClient] add category: category='think' username=None
+
+-----
+Start time: 2025-08-04 19:22:20.194908
+
+[AuthSession] request: GET, /oauth2/authorize, params={'response_type': 'code', 'client_id': 'client', 'scope': 'openid', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_challenge': '9Pc4ffa2XnhLA31-p9qZW0B9wPrMwB0HteKgaylawqw', 'code_challenge_method': 'S256'}, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:22:20.220903
+
+[AuthSession] request: POST, /login, data={'username': 'oleg', 'password': '1234', '_csrf': '9fe65d4a-0e6d-4fbb-961b-24f62606c248'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:22:20.327226
+
+[AuthSession] request: POST, /oauth2/token, data={'code': 'AxxjhBSFfEFXF0Mxzwy-Fhvl4txDaFzEEJBbUs5mjvTRfWGWABSJucGXgMz0tbataxGoChVloj55qEc47ofYsN4DvOtAO1plO4Nax-RUCK7dKPj3ve44qd26hNrktWOP', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_verifier': 'zyrPjZkQ5YI3tOo7NHkKZRx3OZPerMPSxFcbIepn-KY-xOPQhlo850Yv9nKueUk4__n6hvmGf8v8K_sM6apMt6GQJwY0pRMFebmxoCOmhwzWF8H_j_uiS1buWlfTAQ1a', 'grant_type': 'authorization_code', 'client_id': 'client'}, json=None, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}
+
+-----
+Start time: 2025-08-04 19:22:20.491977
+
+[CategoryHttpClient] add category: category='church' username=None
+
+-----
+Start time: 2025-08-04 19:25:05.875528
+
+[AuthSession] request: GET, /oauth2/authorize, params={'response_type': 'code', 'client_id': 'client', 'scope': 'openid', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_challenge': '8NEMD_5_YzcL1X_mXZKhVU5jIu9LEa_T9YB4XuMMmz8', 'code_challenge_method': 'S256'}, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:25:05.901194
+
+[AuthSession] request: POST, /login, data={'username': 'oleg', 'password': '1234', '_csrf': '6b2c7939-a24e-45ff-a2e8-877401a54372'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:25:06.003297
+
+[AuthSession] request: POST, /oauth2/token, data={'code': 'zeqMJV9HUBubpRVBBy1cqvl0JMznJdRo3nyoBKq82WoMwHVgYHz7CFwO6ebPpCw7o-baPKKJt0lo40EHxeVThIVQ9jg-6yAiY3IvjnJv9t4-i63Weq7FXBlX3dFRa8CW', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_verifier': 'bxXlRcT_u_iuKEPcwdVbSlDIrMzvqndi01o6l1clV9PJ1cI1hDRIuFs1cgZhZb0p7gx975_FCJKUuaaWxEucg13uace7iqJO6FfCOi_k_9Vhv4tFUZbHpO7ktuR-pH4c', 'grant_type': 'authorization_code', 'client_id': 'client'}, json=None, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}
+
+-----
+Start time: 2025-08-04 19:25:06.171323
+
+[CategoryHttpClient] add category: category='nor' username=None
+
+-----
+Start time: 2025-08-04 19:25:19.968761
+
+[AuthSession] request: GET, /oauth2/authorize, params={'response_type': 'code', 'client_id': 'client', 'scope': 'openid', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_challenge': 'li7bHfUNkrlul8FlWis_FTumXtBI4alolmhPOgmBX_I', 'code_challenge_method': 'S256'}, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:25:20.025730
+
+[AuthSession] request: POST, /login, data={'username': 'oleg', 'password': '1234', '_csrf': '0855a8c0-def5-4cb1-8841-5ea0eccf5399'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:25:20.115865
+
+[AuthSession] request: POST, /oauth2/token, data={'code': 'cj9mqeLlPwPBQ4Px1V9F7pJqclAWIwLJLTrkkqMK4CeCODNoddya3DaRQ8d_bdRxm-i8IZJ2kcBJnphj-jkZVuPjKvp68Fqc4-vFa5qwemTy2LQPQ0Ng05U-1-8e7U7k', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_verifier': 'Q2mZmuqNdWS_GNVNe_JxP13g-8j6rB-q6EEY0dZTBoxjXA372owFTIOZR3d1LpaokLF2yLZXIQj4YpXagDIqJGA0klMsiF0RDlSwx6kThvM9VMn8knAtjbVW4wGdKST1', 'grant_type': 'authorization_code', 'client_id': 'client'}, json=None, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}
+
+-----
+Start time: 2025-08-04 19:25:20.293803
+
+[CategoryHttpClient] add category: category='watch' username=None
+
+-----
+Start time: 2025-08-04 19:26:02.014883
+
+[AuthSession] request: GET, /oauth2/authorize, params={'response_type': 'code', 'client_id': 'client', 'scope': 'openid', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_challenge': 'Xl4EvEP4dOVF8Fcv8e2QTZNZQ8KCWUaCAT5pNJvzxcM', 'code_challenge_method': 'S256'}, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:26:02.032773
+
+[AuthSession] request: POST, /login, data={'username': 'oleg', 'password': '1234', '_csrf': '14a3040f-4d58-4ccb-b0ad-d9dae2597c7a'}, json=None, allow_redirects=True
+
+-----
+Start time: 2025-08-04 19:26:02.120529
+
+[AuthSession] request: POST, /oauth2/token, data={'code': 'N5WedhWv3QQpfdt86HFsjG1DSjS3ZpSiQar3vyE0V7FkIqVVItd6AcLCtpUJKHz5BB4IZZIiys2HMzvKDdqDnZh-2QLTssxlCqMMLWzoVbEvcjZwEWWJidzNAHRQsRh6', 'redirect_uri': 'http://frontend.niffler.dc/authorized', 'code_verifier': 'uwjRBieGCJW0wmZgKroqHjsFtFpT5JmRiym8id3PvECIhAzPzh9rDHcx0sYIGD4GvQpzX4gls4Cn9ghewnk2Jj0egtRj0poNFlzx20yfXtDZGOqm7bQdKeYr4F_soJwZ', 'grant_type': 'authorization_code', 'client_id': 'client'}, json=None, headers={'Authorization': 'Basic Y2xpZW50OnNlY3JldA=='}
+
+-----
+Start time: 2025-08-04 19:26:02.286896
+
+[CategoryHttpClient] add category: category='support' username=None

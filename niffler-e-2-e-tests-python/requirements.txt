@@ -1,0 +1,15 @@
+selene==2.0.0rc9
+pytest
+requests
+python-dotenv
+faker
+urllib3
+python-dotenv
+sqlalchemy
+sqlmodel
+psycopg2-binary
+curlify
+confluent-kafka
+allure-pytest
+pkce
+jinja2
