@@ -25,7 +25,8 @@ spec:
     spec:
       containers:
         - name: niffler-frontend
-          image: qa_guru/niffler-frontend:latest   # или твой образ
+          image: qaguru/niffler-frontend-local:latest
+          # или твой образ
           ports:
             - containerPort: 8080
 ---
